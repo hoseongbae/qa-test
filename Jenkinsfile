@@ -11,7 +11,7 @@ pipeline {
 
   post {
     always {
-      archiveArtifacts artifacts: '*.html, *.json, *.xml', fingerprint: true
+      archiveArtifacts artifacts: 'GameQA실습파일/newman/*.*', fingerprint: true
     }
   }
 }
